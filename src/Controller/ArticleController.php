@@ -16,7 +16,7 @@ class ArticleController {
     return array(
       '#theme' => 'article_list',
       '#items' => $items,
-      '#title' => 'Our article list'
+      '#heading' => 'Our article list'
     );
   }
 }
